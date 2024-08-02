@@ -9,7 +9,23 @@ export default function ServiceTabs() {
       title: "Branding",
       value: "branding",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-orange-500 to-orange-600">
+        <div className="flexw-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-orange-500 to-orange-600">
+          <p>Branding</p>
+          <p>Branding</p>
+          <p>Branding</p>
+          <p>Branding</p>
+          <p>Branding</p>
+          <p>Branding</p>
+          <p>Branding</p>
+          <p>Branding</p>
+          <p>Branding</p>
+          <p>Branding</p>
+          <p>Branding</p>
+          <p>Branding</p>
+          <p>Branding</p>
+          <p>Branding</p>
+          <p>Branding</p>
+          <p>Branding</p>
           <p>Branding</p>
           <DummyContent />
         </div>
@@ -38,7 +54,7 @@ export default function ServiceTabs() {
   ];
 
   return (
-    <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40">
+    <div className="w-full mb-0">
       <Tabs tabs={tabs} />
     </div>
   );

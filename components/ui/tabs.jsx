@@ -27,7 +27,7 @@ export const Tabs = ({
     <>
       <div
         className={cn(
-          "flex flex-row flex-wrap items-center justify-start [perspective:1000px] relative max-w-full w-full gap-5",
+          "flex flex-row flex-wrap items-center justify-start [perspective:1000px] relative max-w-full w-full gap-5 mb-20",
           containerClassName
         )}
       >
@@ -40,7 +40,7 @@ export const Tabs = ({
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
             className={cn(
-              "relative px-4 py-2 bg-black rounded-full w-full md:w-auto",
+              "relative px-4 py-2 bg-orange-500 rounded-full w-full md:w-auto",
               tabClassName
             )}
             style={{
@@ -52,7 +52,7 @@ export const Tabs = ({
                 layoutId="clickedbutton"
                 transition={{ type: "spring", bounce: 0.3, duration: 0.6 }}
                 className={cn(
-                  "absolute inset-0 bg-orange-500 rounded-full ",
+                  "absolute inset-0 bg-black rounded-full ",
                   activeTabClassName
                 )}
               />
@@ -67,7 +67,7 @@ export const Tabs = ({
         active={active}
         key={active.value}
         hovering={hovering}
-        className={cn("mt-32", contentClassName)}
+        className={cn("h-96", contentClassName)}
       />
     </>
   );
@@ -78,7 +78,7 @@ export const FadeInDiv = ({ className, tabs, hovering }) => {
     return tab.value === tabs[0].value;
   };
   return (
-    <div className="relative w-full h-full">
+    <div className="relative w-full h-96">
       {tabs.map((tab, idx) => (
         <motion.div
           key={tab.value}
