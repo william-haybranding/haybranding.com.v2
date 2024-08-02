@@ -27,7 +27,7 @@ const navItems = [
   },
 ];
 
-export default function Nav() {
+export default function Index() {
   const pathname = usePathname();
   const [selectedIndicator, setSelectedIndicator] = useState(pathname);
 
@@ -67,7 +67,9 @@ export default function Nav() {
           <a>X</a>
         </div>
       </div>
-      <Curve />
+      <div className="hidden md:flex">
+        <Curve />
+      </div>
     </motion.div>
   );
 }
