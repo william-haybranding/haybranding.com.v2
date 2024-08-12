@@ -16,7 +16,7 @@ import yv from "@/public/clients/lg-yv.webp";
 // Import Swiper styles
 import "swiper/css";
 
-export default () => {
+const swiper = () => {
   return (
     <Swiper
       spaceBetween={50}
@@ -82,3 +82,4 @@ export default () => {
     </Swiper>
   );
 };
+export default swiper;
