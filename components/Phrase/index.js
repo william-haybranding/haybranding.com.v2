@@ -6,7 +6,7 @@ const FlipWordsDemo = () => {
 
   return (
     <div className="min-h-[8rem] flex justify-center items-top px-0 md:px-4 overflow-hidden font-mulish">
-      <div className="text-4xl mx-auto text-black font-medium">
+      <div className="text-4xl md:text-5xl mx-auto text-black font-medium">
         Drive
         <FlipWords
           words={words}

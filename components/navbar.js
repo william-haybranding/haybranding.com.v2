@@ -6,7 +6,7 @@ import logo from "@/public/logo-tag-orange.webp";
 export default function Navbar() {
   return (
     <div className="bg-white">
-      <div className="w-full max-w-screen-xl mx-auto p-4 flex flex-wrap justify-between">
+      <div className="w-full max-w-screen-2xl mx-auto p-4 flex flex-wrap justify-between">
         <div>
           <Image src={logo} alt="Logo" className="w-20" layout="fixed" />
         </div>

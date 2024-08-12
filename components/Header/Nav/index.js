@@ -37,7 +37,7 @@ export default function Index() {
       initial="initial"
       animate="enter"
       exit="exit"
-      className={`${styles.menu} bg-indigo-700`}
+      className={`${styles.menu} bg-indigo-700 z-10`}
     >
       <div className={styles.body}>
         <div

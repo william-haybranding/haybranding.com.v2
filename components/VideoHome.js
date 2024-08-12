@@ -18,7 +18,7 @@ export default function VideoHome() {
   }, []);
 
   return (
-    <div className="w-full bg-orange-500 p-10 rounded-3xl relative text-white overflow-hidden min-h-96">
+    <div className="w-full bg-orange-500 p-10 rounded-3xl relative text-white overflow-hidden min-h-96 xl:min-h-[30rem]">
       <video
         ref={videoRef}
         className="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto transform -translate-x-1/2 -translate-y-1/2 object-cover z=0"
@@ -28,7 +28,7 @@ export default function VideoHome() {
       >
         <source src="../loopcta.mp4" type="video/mp4" />
       </video>
-      <h4 className="z-10 absolute bottom-10 font-mulish font-[700] text-3xl w-2/5">
+      <h4 className="z-10 absolute bottom-10 font-mulish font-[700] text-3xl md:text-5xl w-2/5">
         Lorem ipsum dolor sit amet, consectetur.. 
       </h4>
     </div>

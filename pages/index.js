@@ -14,19 +14,19 @@ export default function Home() {
   return (
     <Layout>
       <main className={`w-full flex flex-wrap `}>
-        <div className="relative w-full max-w-screen-xl mx-auto p-4 flex md:hidden">
+        <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex md:hidden">
           <FlipWordsDemo />
         </div>
-        <div className="relative w-full max-w-screen-xl mx-auto p-4 flex ">
+        <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex ">
           <VideoHome />
         </div>
-        <div className="relative w-full max-w-screen-xl mx-auto p-4 flex z-10">
+        <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex z-10">
           <ServiceTabs />
         </div>
         <div className="relative w-full bg-black flex mt-0 md:-mt-20 z-0">
           <Clients />
         </div>
-        <div className="relative w-full max-w-screen-xl mx-auto p-4 flex ">
+        <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex ">
           <Culture />
         </div>
         <div className="relative w-full bg-black/5 flex mt-0 z-0">

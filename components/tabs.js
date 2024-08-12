@@ -35,10 +35,10 @@ export default function ServiceTabs() {
               </svg>
             </div>
             <div className="w-full md:w-2/6">
-              <h3 className="font-mulish uppercase font-black text-2xl text-white">
+              <h3 className="font-mulish uppercase font-black text-2xl md:text-4xl text-white">
                 Branding
               </h3>
-              <p className="text-white">
+              <p className="text-white text-xl mt-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt.
               </p>
@@ -89,10 +89,10 @@ export default function ServiceTabs() {
               </svg>
             </div>
             <div className="w-full md:w-2/6">
-              <h3 className="font-mulish uppercase font-black text-2xl text-white">
+              <h3 className="font-mulish uppercase font-black text-2xl md:text-4xl text-white">
                 Digital Marketing
               </h3>
-              <p className="text-white">
+              <p className="text-white text-xl mt-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt.
               </p>
@@ -136,10 +136,10 @@ export default function ServiceTabs() {
               </svg>
             </div>
             <div className="w-full md:w-2/6">
-              <h3 className="font-mulish uppercase font-black text-2xl text-white">
+              <h3 className="font-mulish uppercase font-black text-2xl md:text-4xl text-white">
                 Web Design & Development
               </h3>
-              <p className="text-white">
+              <p className="text-white text-xl mt-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt.
               </p>

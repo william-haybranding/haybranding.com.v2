@@ -9,6 +9,18 @@ export default function Home() {
 
   return (
     <div className="flex flex-wrap w-full uppercase gap-4 z-50">
+      <div
+        onClick={() => {
+          setIsActive(!isActive);
+        }}
+        className={`${
+          isActive
+            ? "fixed top-10 flex right-10 z-50 text-white text-4xl font-thin cursor-pointer"
+            : "hidden"
+        }`}
+      >
+        X
+      </div>
       <div className="border py-1 px-5 rounded-full border-black font-bold">
         Let's Talk
       </div>
@@ -16,14 +28,17 @@ export default function Home() {
         onClick={() => {
           setIsActive(!isActive);
         }}
-        className={`${styles.button} text-white z-50`}
+        className={`${styles.button} text-white z-0`}
       >
-        <div className={`${isActive ? "text-white" : "text-black font-bold"}`}>
+        <div
+          className={`${
+            isActive ? "text-black font-bold" : "text-black font-bold"
+          }`}
+        >
           Menu
         </div>
-        <div
-          className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}
-        ></div>
+
+        <div className={`${styles.burger} ${isActive ? "" : ""}`}></div>
       </div>
 
       <AnimatePresence mode="wait">{isActive && <Nav />}</AnimatePresence>

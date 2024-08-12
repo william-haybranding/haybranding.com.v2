@@ -9,7 +9,7 @@ import tiktok from "@/public/partners/tiktok.png";
 
 export default function Partners() {
   return (
-    <div className="relative w-full max-w-screen-xl mx-auto p-4 flex flex-wrap">
+    <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex flex-wrap">
       <div className="w-full md:w-5/5 py-14 text-center md:text-start">
         <h2 className="font-mulish uppercase text-3xl font-black pb-0">
           Our partners
