@@ -19,6 +19,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         brand: "url('../public/brand-bg.webp')",
+        social: "url('../public/social-bg.webp')",
+        web: "url('../public/web-bg.webp')",
       },
       fontFamily: {
         mulish: ["var(--font-mulish)"],
