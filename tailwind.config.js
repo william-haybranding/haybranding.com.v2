@@ -17,9 +17,11 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        brand: "url('../public/brand-bg.webp')",
+      },
       fontFamily: {
         mulish: ["var(--font-mulish)"],
-        inter: ["var(--font-inter)"],
       },
       colors: {
         orange: "#de5013",

@@ -67,7 +67,7 @@ export const Tabs = ({
         active={active}
         key={active.value}
         hovering={hovering}
-        className={cn("h-96", contentClassName)}
+        className={cn("md:h-96", contentClassName)}
       />
     </>
   );
@@ -78,7 +78,7 @@ export const FadeInDiv = ({ className, tabs, hovering }) => {
     return tab.value === tabs[0].value;
   };
   return (
-    <div className="relative w-full h-96">
+    <div className="relative w-full h-[30rem] md:h-96">
       {tabs.map((tab, idx) => (
         <motion.div
           key={tab.value}
