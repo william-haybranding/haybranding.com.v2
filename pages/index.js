@@ -5,6 +5,8 @@ import Layout from "@/components/Layout";
 import FlipWordsDemo from "@/components/Phrase";
 import VideoHome from "@/components/VideoHome";
 import Clients from "@/components/Clients";
+import Culture from "@/components/Culture";
+import Partners from "@/components/Partners";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +25,12 @@ export default function Home() {
         </div>
         <div className="relative w-full bg-black flex mt-0 md:-mt-20 z-0">
           <Clients />
+        </div>
+        <div className="relative w-full max-w-screen-xl mx-auto p-4 flex ">
+          <Culture />
+        </div>
+        <div className="relative w-full bg-black/5 flex mt-0 z-0">
+          <Partners />
         </div>
       </main>
     </Layout>

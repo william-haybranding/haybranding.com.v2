@@ -21,9 +21,15 @@ const swiper = () => {
     <Swiper
       spaceBetween={50}
       breakpoints={{
-        640: {
+        140: {
           slidesPerView: 1,
-          //   spaceBetween: 20,
+          centeredSlides: false,
+          centerInsufficientSlides: true,
+        },
+        640: {
+          slidesPerView: 2,
+          centeredSlides: false,
+          centerInsufficientSlides: true,
         },
         768: {
           slidesPerView: 4,
@@ -34,10 +40,13 @@ const swiper = () => {
           //   spaceBetween: 50,
         },
       }}
-      slidesPerView={2}
+      slidesPerView={1}
       loop={true}
+      centeredSlides={false}
+      centerInsufficientSlides={true}
+      speed={7000} // Velocidade de transição em milissegundos
       autoplay={{
-        delay: 2500,
+        delay: 0, // Define o delay para 0 para transição contínua
         disableOnInteraction: false,
       }}
       modules={[Autoplay, Pagination, Navigation]}
@@ -47,37 +56,72 @@ const swiper = () => {
           src={haywex}
           alt="Haywex"
           quality="100"
-          className="h-full w-auto"
+          className="h-full w-auto mx-auto"
         />
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={hc} alt="hc" quality="100" className="h-full w-auto" />
+        <Image
+          src={hc}
+          alt="hc"
+          quality="100"
+          className="h-full w-auto mx-auto"
+        />
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={he} alt="he" quality="100" className="h-full w-auto" />
+        <Image
+          src={he}
+          alt="he"
+          quality="100"
+          className="h-full w-auto mx-auto"
+        />
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={hw} alt="hw" quality="100" className="h-full w-auto" />
+        <Image
+          src={hw}
+          alt="hw"
+          quality="100"
+          className="h-full w-auto mx-auto"
+        />
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={hwa} alt="hwa" quality="100" className="h-full w-auto" />
+        <Image
+          src={hwa}
+          alt="hwa"
+          quality="100"
+          className="h-full w-auto mx-auto"
+        />
       </SwiperSlide>
       <SwiperSlide>
         <Image
           src={hwgem}
           alt="hwgem"
           quality="100"
-          className="h-full w-auto"
+          className="h-full w-auto mx-auto"
         />
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={lf} alt="lf" quality="100" className="h-full w-auto" />
+        <Image
+          src={lf}
+          alt="lf"
+          quality="100"
+          className="h-full w-auto mx-auto"
+        />
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={nytc} alt="nytc" quality="100" className="h-full w-auto" />
+        <Image
+          src={nytc}
+          alt="nytc"
+          quality="100"
+          className="h-full w-auto mx-auto"
+        />
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={yv} alt="yv" quality="100" className="h-full w-auto" />
+        <Image
+          src={yv}
+          alt="yv"
+          quality="100"
+          className="h-full w-auto mx-auto"
+        />
       </SwiperSlide>
     </Swiper>
   );

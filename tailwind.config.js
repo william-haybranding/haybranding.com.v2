@@ -21,6 +21,7 @@ module.exports = {
         brand: "url('../public/brand-bg.webp')",
         social: "url('../public/social-bg.webp')",
         web: "url('../public/web-bg.webp')",
+        team: "url('../public/team.png')",
       },
       fontFamily: {
         mulish: ["var(--font-mulish)"],

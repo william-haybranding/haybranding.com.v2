@@ -4,7 +4,7 @@ import ClientsSwiper from "./Clients/ClientsSwiper";
 export default function Clients() {
   return (
     <div className="w-full bg-black text-white relative md:pt-20 pb-20">
-      <div className="relative w-full max-w-screen-xl mx-auto p-4 flex ">
+      <div className="relative w-full max-w-screen-xl mx-auto p-4 flex justify-center md:justify-start">
         <h2 className="font-mulish uppercase text-3xl font-black py-10">
           Our Clients
         </h2>
