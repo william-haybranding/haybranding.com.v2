@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
       <main className="relative w-full z-0">{children}</main>
 
       <footer className="relative w-full z-0 bg-indigo-600 text-white p-4 text-center">
-        <p>&copy; {new Date().getFullYear()} Footer</p>
+        <p>&copy; {new Date().getFullYear()} Hay Branding</p>
       </footer>
     </div>
   );
