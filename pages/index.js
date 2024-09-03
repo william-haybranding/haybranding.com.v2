@@ -7,12 +7,14 @@ import VideoHome from "@/components/VideoHome";
 import Clients from "@/components/Clients";
 import Culture from "@/components/Culture";
 import Partners from "@/components/Partners";
+import SeoHead from "@/components/SeoHead";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <Layout>
+      <SeoHead />
       <main className={`w-full flex flex-wrap `}>
         <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex md:hidden">
           <FlipWordsDemo />
