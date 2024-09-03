@@ -29,15 +29,15 @@ export default function Home() {
             market.
           </div>
           {/* branding */}
-          <div className="w-full mt-10 hover:bg-indigo-600 flex flex-wrap px-4 py-10 text-black hover:text-white">
+          <div className="w-full mt-10 bg-indigo-500 md:bg-white hover:bg-indigo-600 flex flex-wrap px-4 py-10 text-white md:text-black hover:text-white transition ease-in-out">
             <div className="w-full flex flex-wrap px-4 py-10   max-w-screen-2xl mx-auto">
               <div className="w-full md:w-2/6 font-mulish uppercase text-3xl md:pr-10">
                 <h3 className="font-black mb-4">Branding</h3>
-                <h4>Your Brand, Our Strategy</h4>
+                <h4 className="mb-10">Your Brand, Our Strategy</h4>
               </div>
               <div className="w-full md:w-4/6 flex flex-wrap">
                 <div className="w-full flex flex-wrap mb-8">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     Brand Identity & Strategy
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -47,7 +47,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full flex flex-wrap mb-8">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     Brand Architecture
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -56,7 +56,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full flex flex-wrap mb-8">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish pr-4">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl pr-4">
                     Market Research / Competitive Analysis
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -65,7 +65,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full flex flex-wrap mb-8">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     Brand Position
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -75,7 +75,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full flex flex-wrap mb-8">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     Visual Identity
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -85,7 +85,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full flex flex-wrap mb-0">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     Brand Audit
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -98,15 +98,15 @@ export default function Home() {
           </div>
           {/* branding */}
           {/* Social Media Marketing */}
-          <div className="w-full hover:bg-indigo-600 flex flex-wrap px-4 py-10 text-black hover:text-white">
+          <div className="w-full bg-indigo-500 md:bg-black/5 hover:bg-indigo-600 flex flex-wrap px-4 py-10 text-white md:text-black hover:text-white transition ease-in-out">
             <div className="w-full flex flex-wrap px-4 py-10 max-w-screen-2xl mx-auto">
               <div className="w-full md:w-2/6 font-mulish uppercase text-3xl md:pr-10">
                 <h3 className="font-black mb-4">Social Media Marketing</h3>
-                <h4>Amplify Your Voice</h4>
+                <h4 className="mb-10">Amplify Your Voice</h4>
               </div>
               <div className="w-full md:w-4/6 flex flex-wrap">
                 <div className="w-full flex flex-wrap mb-8">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     Channel Management
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -115,7 +115,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full flex flex-wrap mb-8">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     Community Management
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -125,7 +125,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full flex flex-wrap mb-8">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     Influencer Marketing
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -134,7 +134,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full flex flex-wrap mb-8">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     Paid Social Media Advertising
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -143,7 +143,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full flex flex-wrap mb-8">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     Reporting & Analysis
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -153,7 +153,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full flex flex-wrap mb-0">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     Content Creation
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -167,15 +167,17 @@ export default function Home() {
           </div>
           {/* Social Media Marketing */}
           {/* Tech & Developers */}
-          <div className="w-full mt-10 hover:bg-indigo-600 flex flex-wrap px-4 py-10 text-black hover:text-white">
+          <div className="w-full bg-indigo-500 md:bg-white hover:bg-indigo-600 flex flex-wrap px-4 py-10 text-white md:text-black hover:text-white transition ease-in-out">
             <div className="w-full flex flex-wrap px-4 py-10 max-w-screen-2xl mx-auto">
               <div className="w-full md:w-2/6 font-mulish uppercase text-3xl md:pr-10">
                 <h3 className="font-black mb-4">Tech & Developers</h3>
-                <h4>Innovative Solutions for the Digital Age</h4>
+                <h4 className="mb-10">
+                  Innovative Solutions for the Digital Age
+                </h4>
               </div>
               <div className="w-full md:w-4/6 flex flex-wrap">
                 <div className="w-full flex flex-wrap mb-8">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     User Experience
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -184,7 +186,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full flex flex-wrap mb-8">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     Web Design
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -193,7 +195,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full flex flex-wrap mb-8">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     Web Development
                   </h5>
                   <p className="w-full md:w-3/6">
@@ -202,7 +204,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="w-full flex flex-wrap mb-0">
-                  <h5 className="w-full md:w-3/6 font-black font-mulish">
+                  <h5 className="w-full md:w-3/6 font-black font-mulish md:text-end md:pr-4 text-xl">
                     Web Technologies
                   </h5>
                   <p className="w-full md:w-3/6">
