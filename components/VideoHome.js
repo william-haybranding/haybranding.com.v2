@@ -29,7 +29,7 @@ export default function VideoHome() {
         <source src="../loopcta.mp4" type="video/mp4" />
       </video>
       <h4 className="z-10 absolute bottom-10 font-mulish font-[700] text-3xl md:text-5xl w-2/5">
-        Lorem ipsum dolor sit amet, consectetur.. 
+        Empowering brands to thrive in a digital world... 
       </h4>
     </div>
   );

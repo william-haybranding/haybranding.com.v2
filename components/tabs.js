@@ -38,9 +38,10 @@ export default function ServiceTabs() {
               <h3 className="font-mulish uppercase font-black text-2xl md:text-4xl text-white">
                 Branding
               </h3>
-              <p className="text-white text-xl mt-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
+              <p className="text-white text-md mt-2">
+                We craft a strong visual identity for your brand that clearly
+                communicates your values and sets you apart from the
+                competition.
               </p>
             </div>
             <div className="w-1/6 hidden md:block"></div>
@@ -92,9 +93,10 @@ export default function ServiceTabs() {
               <h3 className="font-mulish uppercase font-black text-2xl md:text-4xl text-white">
                 Digital Marketing
               </h3>
-              <p className="text-white text-xl mt-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
+              <p className="text-white text-md mt-2">
+                We develop digital marketing strategies to boost your online
+                presence and effectively reach your target audience through SEO,
+                social media, and paid advertising.
               </p>
             </div>
             <div className="w-1/6 hidden md:block"></div>
@@ -139,9 +141,10 @@ export default function ServiceTabs() {
               <h3 className="font-mulish uppercase font-black text-2xl md:text-4xl text-white">
                 Web Design & Development
               </h3>
-              <p className="text-white text-xl mt-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
+              <p className="text-white text-md mt-2">
+                We design visually appealing and user-friendly websites that
+                enhance your online presence and provide an exceptional user
+                experience.
               </p>
             </div>
             <div className="w-1/6 hidden md:block"></div>
@@ -168,10 +171,13 @@ export default function ServiceTabs() {
     <div className="relative w-full mt-5 mb-0">
       <h2 className="font-mulish font-black uppercase text-3xl">About</h2>
       <p className="text-xl my-10">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        We are a marketing agency based in Dubai, specializing in creating
+        innovative and impactful strategies for brands looking to stand out in
+        the global market. Our multidisciplinary team of experts is dedicated to
+        providing customized solutions that not only meet our clients' needs but
+        also propel their businesses to the next level. From small businesses to
+        large corporations, our focus is always on delivering results that
+        exceed expectations.
       </p>
       <Tabs tabs={tabs} />
     </div>
