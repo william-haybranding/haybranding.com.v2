@@ -16,11 +16,11 @@ export default function Home() {
         }}
         className={`${
           isActive
-            ? "fixed top-10 flex right-10 z-50 text-white text-4xl font-thin cursor-pointer"
+            ? "fixed top-10 flex right-10 z-50 text-white text-xl font-thin cursor-pointer"
             : "hidden"
         }`}
       >
-        X
+        X Close
       </div>
       <div className="border py-1 px-5 rounded-full border-black font-bold">
         <Link href="/contact">Let's Talk</Link>

@@ -5,8 +5,15 @@ import styles from "./style.module.css";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { menuSlide } from "@/components/Header/anim";
-import Link from "./Link";
+import LinkComponent from "./Link";
+import Link from "next/link";
 import Curve from "@/components/Header/Curve";
+
+import {
+  PiInstagramLogo,
+  PiFacebookLogo,
+  PiLinkedinLogo,
+} from "react-icons/pi";
 
 const navItems = [
   {
@@ -51,20 +58,31 @@ export default function Index() {
           </div> */}
           {navItems.map((data, index) => {
             return (
-              <Link
+              <LinkComponent
                 key={index}
                 data={{ ...data, index }}
                 isActive={selectedIndicator == data.href}
                 setSelectedIndicator={setSelectedIndicator}
-              ></Link>
+              ></LinkComponent>
             );
           })}
         </div>
         <div className={styles.footer}>
-          <a>IG</a>
-          <a>LI</a>
-          <a>YT</a>
-          <a>X</a>
+          <Link legacyBehavior href="/contact">
+            <a className="text-2xl">
+              <PiInstagramLogo />
+            </a>
+          </Link>
+          <Link legacyBehavior href="/contact">
+            <a className="text-2xl">
+              <PiFacebookLogo />
+            </a>
+          </Link>
+          <Link legacyBehavior href="/contact">
+            <a className="text-2xl">
+              <PiLinkedinLogo />
+            </a>
+          </Link>
         </div>
       </div>
       <div className="hidden md:flex">
