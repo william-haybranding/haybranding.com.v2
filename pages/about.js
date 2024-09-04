@@ -8,12 +8,17 @@ import Clients from "@/components/Clients";
 import Culture from "@/components/Culture";
 import Partners from "@/components/Partners";
 import Title from "@/components/Title";
+import SeoHead from "@/components/SeoHead";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <Layout>
+      <SeoHead
+        title="Hay Branding - About Us"
+        description="Learn more about Hay Branding, a leading marketing agency dedicated to transforming brands and empowering growth. Discover our mission, values, and the team behind our success."
+      />
       <main className={`w-full flex flex-wrap relative`}>
         <div className="relative w-full">
           <Title

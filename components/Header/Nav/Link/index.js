@@ -8,7 +8,7 @@ export default function Index({ data, isActive, setSelectedIndicator }) {
 
   return (
     <motion.div
-      className={styles.link}
+      className={`${styles.link}`}
       onMouseEnter={() => {
         setSelectedIndicator(href);
       }}

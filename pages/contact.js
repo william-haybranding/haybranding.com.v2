@@ -9,12 +9,17 @@ import Culture from "@/components/Culture";
 import Partners from "@/components/Partners";
 import Title from "@/components/Title";
 import Link from "next/link";
+import SeoHead from "@/components/SeoHead";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <Layout>
+      <SeoHead
+        title="Hay Branding - Contact"
+        description="Get in touch with Hay Branding. Contact us to discuss your branding and marketing needs or to learn more about how we can help elevate your brand."
+      />
       <main className={`w-full flex flex-wrap relative`}>
         <div className="relative w-full">
           <Title title="Contact" phrase="Get in Touch with Us" />
