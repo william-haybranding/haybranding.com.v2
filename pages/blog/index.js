@@ -32,7 +32,7 @@ export default function Home() {
           <ul>
             {posts.map((post) => (
               <li key={post.id}>
-                <a href={`/posts/${post.slug}`}>{post.title}</a>
+                <a href={`/blog/${post.slug}`}>{post.title}</a>
                 <p>{post.date}</p>
               </li>
             ))}
