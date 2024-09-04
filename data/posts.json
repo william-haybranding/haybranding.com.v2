@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "Primeiro Post",
+    "slug": "primeiro-post",
+    "date": "2024-09-01",
+    "content": "<p>Este é o <strong>conteúdo</strong> do primeiro post com HTML.</p>"
+  },
+  {
+    "id": "2",
+    "title": "Segundo Post",
+    "slug": "segundo-post",
+    "date": "2024-09-02",
+    "content": "<p>Este é o <em>conteúdo</em> do segundo post com HTML.</p>"
+  }
+]
