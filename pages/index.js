@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <Layout>
       <SeoHead />
-      <main className={`w-full flex flex-wrap `}>
-        <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex md:hidden">
+      <main className={`w-full flex flex-wrap overflow-hidden`}>
+        <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex md:hidden ">
           <FlipWordsDemo />
         </div>
         <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex ">
