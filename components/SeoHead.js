@@ -12,8 +12,7 @@ const defaultMeta = {
   robots: "follow, index",
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status
-  image:
-    "https://res.cloudinary.com/dkrpbdexy/image/upload/v1704561460/og-image_wyxuq9.png",
+  image: "/og-image.png",
   author: "William Carriello",
 };
 
