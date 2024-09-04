@@ -171,13 +171,13 @@ export default function ServiceTabs() {
     <div className="relative w-full mt-5 mb-0">
       <h2 className="font-mulish font-black uppercase text-3xl">About</h2>
       <p className="text-xl my-10">
-        We are a marketing agency based in Dubai, specializing in creating
-        innovative and impactful strategies for brands looking to stand out in
-        the global market. Our multidisciplinary team of experts is dedicated to
-        providing customized solutions that not only meet our clients' needs but
-        also propel their businesses to the next level. From small businesses to
-        large corporations, our focus is always on delivering results that
-        exceed expectations.
+        We are a marketing agency based in Dubai, London and New York,
+        specializing in creating innovative and impactful strategies for brands
+        looking to stand out in the global market. Our multidisciplinary team of
+        experts is dedicated to providing customized solutions that not only
+        meet our clients' needs but also propel their businesses to the next
+        level. From small businesses to large corporations, our focus is always
+        on delivering results that exceed expectations.
       </p>
       <Tabs tabs={tabs} />
     </div>
