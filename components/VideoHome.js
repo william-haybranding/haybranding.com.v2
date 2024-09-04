@@ -28,7 +28,8 @@ export default function VideoHome() {
 
   return (
     <div className="w-full bg-orange-500 p-10 rounded-3xl relative text-white overflow-hidden min-h-96 xl:min-h-[30rem]">
-      <div className="absolute bg-loop bg-center bg-cover top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto transform -translate-x-1/2 -translate-y-1/2 object-cover z-10"></div>
+      <div className="absolute bg-orange bg-opacity-50 top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto transform -translate-x-1/2 -translate-y-1/2 object-cover z-10"></div>
+      <div className="absolute bg-loop bg-center bg-cover top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto transform -translate-x-1/2 -translate-y-1/2 object-cover z-0"></div>
       {/* SVYBqzBxFSk */}
       {/* {videoLoaded && (
         <video
