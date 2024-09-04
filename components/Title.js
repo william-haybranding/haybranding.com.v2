@@ -51,7 +51,7 @@ export default function Title({ title, phrase }) {
           <div className="absolute bg-orange bg-opacity-80 top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto transform -translate-x-1/2 -translate-y-1/2 object-cover z-10"></div>
           <video
             ref={videoRef}
-            className="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto transform -translate-x-1/2 -translate-y-1/2 object-cover z-0"
+            className="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto transform -translate-x-1/2 -translate-y-1/2 object-cover z-0 hidden md:block"
             autoPlay
             muted
             loop
