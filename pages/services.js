@@ -98,7 +98,7 @@ export default function Home() {
           </div>
           {/* branding */}
           {/* Social Media Marketing */}
-          <div className="w-full bg-indigo-500 md:bg-black/5 hover:bg-indigo-600 flex flex-wrap px-4 py-10 text-white md:text-black hover:text-white transition ease-in-out">
+          <div className="w-full bg-indigo-600 md:bg-black/5 hover:bg-indigo-600 flex flex-wrap px-4 py-10 text-white md:text-black hover:text-white transition ease-in-out">
             <div className="w-full flex flex-wrap px-4 py-10 max-w-screen-2xl mx-auto">
               <div className="w-full md:w-2/6 font-mulish uppercase text-3xl md:pr-10">
                 <h3 className="font-black mb-4">Social Media Marketing</h3>
@@ -167,7 +167,7 @@ export default function Home() {
           </div>
           {/* Social Media Marketing */}
           {/* Tech & Developers */}
-          <div className="w-full bg-indigo-500 md:bg-white hover:bg-indigo-600 flex flex-wrap px-4 py-10 text-white md:text-black hover:text-white transition ease-in-out">
+          <div className="w-full bg-indigo-700 md:bg-white hover:bg-indigo-600 flex flex-wrap px-4 py-10 text-white md:text-black hover:text-white transition ease-in-out">
             <div className="w-full flex flex-wrap px-4 py-10 max-w-screen-2xl mx-auto">
               <div className="w-full md:w-2/6 font-mulish uppercase text-3xl md:pr-10">
                 <h3 className="font-black mb-4">Tech & Developers</h3>

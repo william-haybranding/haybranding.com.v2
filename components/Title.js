@@ -45,7 +45,7 @@ export default function Title({ title, phrase }) {
           </defs>
         </svg>
         <div className="bg-orange-600 w-full rounded-xl px-10 pt-40 pb-10 relative overflow-hidden min-h-96 xl:min-h-[30rem]">
-          <div className="z-10 absolute bottom-10 font-mulish font-[700] text-2xl md:text-3xl w-2/5">
+          <div className="z-10 absolute bottom-10 font-mulish font-[700] text-2xl md:text-3xl w-5/6 md:w-2/5">
             <h2>{phrase}</h2>
           </div>
           <video

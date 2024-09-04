@@ -31,9 +31,9 @@ export default function Home() {
             and compelling..
           </div>
         </div>
-        <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex mt-8">
+        <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex flex-wrap mt-8">
           <div className="w-full md:w-3/6">
-            <h4 className="font-mulish text-5xl font-bold">Who We Are</h4>
+            <h4 className="font-mulish text-5xl font-bold mb-8">Who We Are</h4>
           </div>
           <div className="w-full md:w-3/6 text-xl">
             <p>
@@ -64,9 +64,11 @@ export default function Home() {
             <ServiceTabsInner />
           </div>
         </div>
-        <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex mt-8">
+        <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex flex-wrap mt-8">
           <div className="w-full md:w-3/6">
-            <h4 className="font-mulish text-5xl font-bold">Our Approach</h4>
+            <h4 className="font-mulish text-5xl font-bold mb-8">
+              Our Approach
+            </h4>
           </div>
           <div className="w-full md:w-3/6 text-xl">
             <p>
@@ -79,9 +81,9 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex mt-8">
+        <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex flex-wrap mt-8">
           <div className="w-full md:w-3/6">
-            <h4 className="font-mulish text-5xl font-bold">
+            <h4 className="font-mulish text-5xl font-bold mb-8">
               Why Choose Hay Branding?
             </h4>
           </div>
