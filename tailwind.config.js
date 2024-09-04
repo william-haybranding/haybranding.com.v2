@@ -22,6 +22,7 @@ module.exports = {
         social: "url('../public/social-bg.webp')",
         web: "url('../public/web-bg.webp')",
         team: "url('../public/team.png')",
+        loop: "url('../public/looping.gif')",
       },
       fontFamily: {
         mulish: ["var(--font-mulish)"],

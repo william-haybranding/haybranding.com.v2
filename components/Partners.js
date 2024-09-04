@@ -17,10 +17,10 @@ export default function Partners() {
       </div>
       <div className="w-full md:w-5/5 pb-14 gap-10 md:gap-0 flex flex-wrap justify-center md:justify-between items-center">
         <Image src={facebook} alt="facebook" className="w-16 md:w-26 h-auto" />
-        <Image src={google} alt="google" className="w-16 md:w-26" />
-        <Image src={hubspot} alt="hubspot" className="w-16 md:w-26" />
-        <Image src={snapchat} alt="snapchat" className="w-16 md:w-26" />
-        <Image src={tiktok} alt="tiktok" className="w-16 md:w-26" />
+        <Image src={google} alt="google" className="w-16 md:w-26 h-auto" />
+        <Image src={hubspot} alt="hubspot" className="w-16 md:w-26 h-auto" />
+        <Image src={snapchat} alt="snapchat" className="w-16 md:w-26 h-auto" />
+        <Image src={tiktok} alt="tiktok" className="w-16 md:w-26 h-auto" />
       </div>
     </div>
   );

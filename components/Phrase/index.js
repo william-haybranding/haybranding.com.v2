@@ -11,7 +11,7 @@ const FlipWordsDemo = () => {
         <FlipWords
           words={words}
           duration={4000}
-          className="text-orange-500 inline md:inline -mb-10 -ml-0 md:ml-0 font-black"
+          className="text-indigo-500 inline md:inline -mb-10 -ml-0 md:ml-0 font-black"
         />
         <br />
         marketing campaigns with us!
