@@ -1,0 +1,8 @@
+{
+  "name": "Hay Branding",
+  "short_name": "Hay Branding",
+  "icons": [],
+  "theme_color": "#de5013",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
