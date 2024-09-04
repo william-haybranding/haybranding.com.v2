@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import ParticlesComponent from "@/components/particles";
 
 export default function Title({ title, phrase }) {
   const videoRef = useRef(null);
@@ -44,12 +45,14 @@ export default function Title({ title, phrase }) {
             </clipPath>
           </defs>
         </svg>
-        <div className="bg-orange-600 w-full rounded-xl px-10 pt-40 pb-10 relative overflow-hidden min-h-96 xl:min-h-[30rem]">
+        <div className="bg-indigo-600 w-full rounded-xl px-10 pt-40 pb-10 relative overflow-hidden min-h-96 xl:min-h-[30rem]">
           <div className="z-20 absolute bottom-10 font-mulish font-[700] text-2xl md:text-3xl w-5/6 md:w-2/5">
             <h2>{phrase}</h2>
           </div>
-          <div className="absolute bg-orange bg-opacity-50 top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto transform -translate-x-1/2 -translate-y-1/2 object-cover z-10"></div>
-          <div className="absolute bg-loop bg-center bg-cover top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto transform -translate-x-1/2 -translate-y-1/2 object-cover z-0"></div>
+          <div className="absolute  top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto transform -translate-x-1/2 -translate-y-1/2 object-cover z-10">
+            <ParticlesComponent />
+          </div>
+          {/* <div className="absolute bg-loop bg-center bg-cover top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto transform -translate-x-1/2 -translate-y-1/2 object-cover z-0"></div> */}
           {/* <video
             onContextMenu={(e) => e.preventDefault()}
             ref={videoRef}

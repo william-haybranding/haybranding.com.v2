@@ -20,6 +20,7 @@ export default function Home() {
         title="Hay Branding - Contact"
         description="Get in touch with Hay Branding. Contact us to discuss your branding and marketing needs or to learn more about how we can help elevate your brand."
       />
+
       <main className={`w-full flex flex-wrap relative`}>
         <div className="relative w-full">
           <Title title="Contact" phrase="Get in Touch with Us" />
@@ -63,7 +64,9 @@ export default function Home() {
               face-to-face meetings:
             </p>
             <p className="text-orange-600">
-              Al Barsha Business Centre, Office 501, Dubai, UAE
+              HAY BRANDING MARKETING SERVICES FZCO <br />
+              Ofice 2704A, Tower A, Business Central Towers <br />
+              Dubai - UAE
             </p>
           </div>
         </div>
