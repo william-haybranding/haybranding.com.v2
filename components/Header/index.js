@@ -3,6 +3,7 @@ import styles from "./style.module.css";
 import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import Nav from "@/components/Header/Nav";
+import Link from "next/link";
 
 export default function Home() {
   const [isActive, setIsActive] = useState(false);
@@ -22,7 +23,7 @@ export default function Home() {
         X
       </div>
       <div className="border py-1 px-5 rounded-full border-black font-bold">
-        Let's Talk
+        <Link href="/contact">Let's Talk</Link>
       </div>
       <div
         onClick={() => {

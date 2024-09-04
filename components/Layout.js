@@ -24,13 +24,13 @@ const Layout = ({ children }) => {
             </Link>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0 justify-center md:justify-end">
               <li>
-                <Link href="/services" className="hover:underline me-4 md:me-6">
-                  Services
+                <Link href="/about" className="hover:underline me-4 md:me-6">
+                  About
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:underline me-4 md:me-6">
-                  About
+                <Link href="/services" className="hover:underline me-4 md:me-6">
+                  Services
                 </Link>
               </li>
               <li>
