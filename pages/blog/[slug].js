@@ -28,7 +28,7 @@ export default function Post({ post }) {
         </div>
         <div className="relative w-full max-w-screen-2xl mx-auto p-4 pt-0 flex">
           <div className="relative w-full flex flex-wrap flex-row-reverse justify-between">
-            <div className="relative top-0 w-full md:w-2/6 bg-white rounded-xl overflow-hidden h-48 md:h-72 shadow-2xl z-20 mb-10">
+            <div className="relative top-0 w-full md:w-2/6 bg-white  h-48 md:h-72  z-20 mb-10">
               <Image
                 src={`${post.image}`}
                 alt={post.title}
@@ -36,7 +36,7 @@ export default function Post({ post }) {
                 height={300}
                 loading="lazy"
                 quality="100"
-                className="rounded-lg w-full absolute top-0 left-0"
+                className="rounded-xl w-full absolute top-0 left-0 shadow-2xl"
               />
               <span className="absolute top-4 left-4 bg-orange text-white font-mulish px-2 rounded-xl font-bold">
                 {post.date}

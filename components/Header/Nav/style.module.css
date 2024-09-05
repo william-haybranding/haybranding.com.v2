@@ -9,7 +9,7 @@
 .menu .body {
   box-sizing: border-box;
   height: 100%;
-  padding: 100px;
+  padding: 50px 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
