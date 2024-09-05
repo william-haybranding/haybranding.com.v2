@@ -83,3 +83,28 @@
   /* Ajuste a altura do slide conforme necessário */
   height: 300px;
 }
+
+.blog p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.blog img {
+  width: 100%;
+  height: auto;
+}
+
+.blog h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.blog h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.blog a {
+  color: var(--primary);
+}
