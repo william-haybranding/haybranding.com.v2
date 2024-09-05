@@ -1,16 +1,20 @@
 [
   {
-    "id": "1",
-    "title": "Primeiro Post",
-    "slug": "primeiro-post",
-    "date": "2024-09-01",
-    "content": "<p>Este é o <strong>conteúdo</strong> do primeiro post com HTML.</p>"
+    "id": "2",
+    "title": "The Cost of Lost Marketing Connections: Why Your Martech Stack Is Losing Leads (And How to Fix It)",
+    "slug": "cost-of-lost-marketing-connections",
+    "image": "https://res.cloudinary.com/dhxnxmiiq/image/upload/v1725535499/blog%20Hay%20Branding/Top-25-Designer-Fashion-Brands-in-2023-2024-2048x1152_dsqsbb.webp",
+    "date": "2024-08-07",
+    "excerpt": "Discover how disjointed marketing technology stacks are costing businesses leads and revenue, and learn how automation tools like Make can solve this problem.",
+    "content": "<p><strong>The Cost of Lost Marketing Connections: Why Your Martech Stack Is Losing Leads (And How to Fix It)</strong></p><p>Every B2B marketer knows that LinkedIn is crucial for building your brand and generating leads. However, converting those leads requires seamless integration between marketing tools and CRMs. When systems don’t sync properly, data becomes fragmented, leading to missed opportunities.</p><p>According to Forrester, organizations with aligned sales and marketing systems grow 19% faster and are 15% more profitable. By automating lead processes with tools like Make, businesses can ensure data accuracy and accelerate lead nurturing, as demonstrated by Brevo’s success with LinkedIn automation.</p><p>Automation streamlines workflows, ensuring no leads fall through the cracks, and frees up marketing teams to focus on what matters most: driving conversions and growth.</p>"
   },
   {
-    "id": "2",
-    "title": "Segundo Post",
-    "slug": "segundo-post",
-    "date": "2024-09-02",
-    "content": "<p>Este é o <em>conteúdo</em> do segundo post com HTML.</p>"
+    "id": "1",
+    "title": "Why B2B Brands Are Embracing Influencer Marketing",
+    "slug": "why-b2b-brands-embracing-influencer-marketing",
+    "image": "https://res.cloudinary.com/dhxnxmiiq/image/upload/v1725535500/blog%20Hay%20Branding/1723060190830_paouje.jpg",
+    "date": "2024-08-29",
+    "excerpt": "Influencer marketing is no longer just for B2C brands. Learn why B2B brands are increasingly embracing this strategy to connect with their audiences.",
+    "content": "<p><strong>Why B2B Brands Are Embracing Influencer Marketing</strong></p><p>Only a few short years ago, the term 'influencer marketing' was synonymous with viral dance routines, make-up tutorials, and lifestyle vlogs. But times have changed, and influencer marketing has evolved into a massive ecosystem, especially within B2B.</p><p>Since 2016, the global market size has grown by more than 20x, and experts predict the creator economy will reach $500 billion by 2027. B2B brands are beginning to embrace this trend as a way to connect with audiences on a human level. Social media channels are now the primary focus for marketing spend, with 61% of B2B leaders planning to increase investments in influencer content.</p><p>While B2C influencers often focus on trendsetting, B2B influencers emphasize credibility and expertise. These influencers, including thought leaders, academics, and industry experts, are becoming essential to marketing strategies in this space.</p><p>The landscape is shifting, and with it, the opportunity for B2B brands to tell their stories through the voices of trusted influencers.</p>"
   }
 ]

@@ -11,6 +11,7 @@ import Title from "@/components/Title";
 import SeoHead from "@/components/SeoHead";
 
 import posts from "@/data/posts.json";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,15 +29,37 @@ export default function Home() {
             phrase="Discover insights and updates from the world of marketing and branding..."
           />
         </div>
-        <div className="relative w-full  flex flex-wrap">
-          <ul>
+        <div className="relative w-full max-w-screen-2xl mx-auto p-4 pt-0 flex">
+          <div className="relative w-full grid grid-cols-1 md:grid-cols-2 gap-10">
             {posts.map((post) => (
-              <li key={post.id}>
-                <a href={`/blog/${post.slug}`}>{post.title}</a>
-                <p>{post.date}</p>
-              </li>
+              <div key={post.id} className="w-full">
+                <Link href={`/blog/${post.slug}`} legacyBehavior>
+                  <a className="w-full flex flex-wrap relative h-full items-start ">
+                    <div className="w-full">
+                      <div className="w-full bg-white rounded-xl relative overflow-hidden h-48 md:h-72 shadow-2xl">
+                        <Image
+                          src={`${post.image}`}
+                          alt={post.title}
+                          width={400}
+                          height={300}
+                          loading="lazy"
+                          quality="100"
+                          className="rounded-lg w-full absolute top-0 left-0"
+                        />
+                      </div>
+                      <h3 className="font-mulish font-bold py-4">
+                        {post.title}
+                      </h3>
+                      <span className="absolute top-4 left-4 bg-orange text-white font-mulish px-2 rounded-xl font-bold">
+                        {post.date}
+                      </span>
+                      <p>{post.excerpt}</p>
+                    </div>
+                  </a>
+                </Link>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
         <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex ">
           {/* <Culture /> */}
