@@ -21,6 +21,7 @@ export default function Post({ post }) {
       <SeoHead
         title={`Hay Branding - ${post.title}`}
         description={post.excerpt}
+        image={post.image}
       />
       <main className={`w-full flex flex-wrap relative blog`}>
         <div className="relative w-full">

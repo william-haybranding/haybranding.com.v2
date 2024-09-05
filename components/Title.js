@@ -24,7 +24,7 @@ export default function Title({ title, phrase }) {
           phrase ? "pb-28" : "mb-10"
         } flex bg-black text-white font-mulish uppercase text-5xl font-black`}
       >
-        <div className="relative w-full max-w-screen-2xl mx-auto p-4 py-10 pb-8 flex bg-black text-white font-mulish uppercase text-xl md:text-5xl font-black">
+        <div className="relative w-full max-w-screen-2xl mx-auto p-4 py-0 pb-0 flex bg-black text-white font-mulish uppercase text-3xl md:text-5xl font-black">
           <h1>{title}</h1>
         </div>
       </div>

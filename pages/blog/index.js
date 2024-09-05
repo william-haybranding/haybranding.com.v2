@@ -47,7 +47,7 @@ export default function Home() {
                           className="rounded-lg w-full absolute top-0 left-0"
                         />
                       </div>
-                      <h3 className="font-mulish font-bold py-4">
+                      <h3 className="font-mulish font-bold py-4 text-2xl">
                         {post.title}
                       </h3>
                       <span className="absolute top-4 left-4 bg-orange text-white font-mulish px-2 rounded-xl font-bold">
