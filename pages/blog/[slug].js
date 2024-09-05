@@ -24,11 +24,11 @@ export default function Post({ post }) {
       />
       <main className={`w-full flex flex-wrap relative blog`}>
         <div className="relative w-full">
-          <Title title="Blog" phrase={post.title} />
+          <Title title={post.title} />
         </div>
         <div className="relative w-full max-w-screen-2xl mx-auto p-4 pt-0 flex">
           <div className="relative w-full flex flex-wrap flex-row-reverse justify-between">
-            <div className="relative top-0 w-full md:w-2/6 bg-white rounded-xl overflow-hidden h-48 md:h-72 shadow-2xl z-20">
+            <div className="relative top-0 w-full md:w-2/6 bg-white rounded-xl overflow-hidden h-48 md:h-72 shadow-2xl z-20 mb-10">
               <Image
                 src={`${post.image}`}
                 alt={post.title}
