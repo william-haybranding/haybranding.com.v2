@@ -10,6 +10,8 @@ import Partners from "@/components/Partners";
 import Title from "@/components/Title";
 import Link from "next/link";
 import SeoHead from "@/components/SeoHead";
+import { Contact } from "lucide-react";
+import FormContact from "@/components/FormContact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,14 +35,12 @@ export default function Home() {
             project, we’d love to hear from you!
           </div>
         </div>
-        <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex flex-wrap mt-8">
-          <div className="w-full md:w-3/6">
+        <div className="relative w-full max-w-screen-2xl mx-auto flex flex-wrap mt-8 p-4">
+          <div className="w-full md:w-3/6 p-0">
             <h4 className="font-mulish text-5xl font-bold mb-8">
               Contact Information
             </h4>
-          </div>
-          <div className="w-full md:w-3/6 text-xl">
-            <h3 className="mb-4 font-mulish font-bold">Email Us</h3>
+            <h3 className="mb-4 font-mulish font-bold text-xl">Email Us</h3>
             <p className="mb-4 text-lg">
               For general inquiries or to learn more about how we can assist
               your brand:
@@ -50,7 +50,9 @@ export default function Home() {
                 info@haybranding.com
               </a>
             </Link>
-            <h3 className="mb-4 font-mulish font-bold mt-10">Call Us</h3>
+            <h3 className="mb-4 font-mulish font-bold mt-10 text-xl">
+              Call Us
+            </h3>
             <p className="mb-4 text-lg">
               Speak directly with our team to discuss your project needs or
               schedule a consultation:
@@ -58,7 +60,9 @@ export default function Home() {
             <Link href="tel:+97141234567" legacyBehavior>
               <a className="text-indigo-600 hover:underline">+971 4 123 4567</a>
             </Link>
-            <h3 className="mb-4 font-mulish font-bold mt-10">Visit Us</h3>
+            <h3 className="mb-4 font-mulish font-bold mt-10 text-xl">
+              Visit Us
+            </h3>
             <p className="mb-4 text-lg">
               We’re located in the heart of Dubai and always welcome
               face-to-face meetings:
@@ -68,6 +72,12 @@ export default function Home() {
               Ofice 2704A, Tower A, Business Central Towers <br />
               Dubai - UAE
             </p>
+          </div>
+          <div className="w-full md:w-3/6 text-xl bg-black/5 p-0 rounded-2xl">
+            <h4 className="font-mulish text-5xl font-bold mb-8 p-4">
+              It will be a pleasure to talk to you.
+            </h4>
+            <FormContact />
           </div>
         </div>
         <div className="relative w-full max-w-screen-2xl mx-auto p-4 flex ">
