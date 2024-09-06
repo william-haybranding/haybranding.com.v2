@@ -33,8 +33,8 @@ export default function handler(req, res) {
     // console.log(files.file.mimetype);
 
     var mailOptions = {
-      from: "william.carriello@haybranding.com",
-      to: "william.carriello@haybranding.com",
+      from: "bruna@haybranding.com",
+      to: "bruna@haybranding.com",
       subject: "Contact Form - Website - Haybranding",
       html: `
       
