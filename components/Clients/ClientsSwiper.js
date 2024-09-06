@@ -56,72 +56,42 @@ const swiper = () => {
           src={haywex}
           alt="Haywex"
           quality="100"
-          className="h-full w-auto mx-auto"
+          className="w-auto mx-auto"
         />
       </SwiperSlide>
       <SwiperSlide>
-        <Image
-          src={hc}
-          alt="hc"
-          quality="100"
-          className="h-full w-auto mx-auto"
-        />
+        <Image src={hc} alt="hc" quality="100" className="w-auto mx-autoo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image
-          src={he}
-          alt="he"
-          quality="100"
-          className="h-full w-auto mx-auto"
-        />
+        <Image src={he} alt="he" quality="100" className="w-auto mx-autoo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image
-          src={hw}
-          alt="hw"
-          quality="100"
-          className="h-full w-auto mx-auto"
-        />
+        <Image src={hw} alt="hw" quality="100" className="w-auto mx-autoo" />
       </SwiperSlide>
       <SwiperSlide>
-        <Image
-          src={hwa}
-          alt="hwa"
-          quality="100"
-          className="h-full w-auto mx-auto"
-        />
+        <Image src={hwa} alt="hwa" quality="100" className="w-auto mx-autoo" />
       </SwiperSlide>
       <SwiperSlide>
         <Image
           src={hwgem}
           alt="hwgem"
           quality="100"
-          className="h-full w-auto mx-auto"
+          className="w-auto mx-autoo"
         />
       </SwiperSlide>
       <SwiperSlide>
-        <Image
-          src={lf}
-          alt="lf"
-          quality="100"
-          className="h-full w-auto mx-auto"
-        />
+        <Image src={lf} alt="lf" quality="100" className="w-auto mx-autoo" />
       </SwiperSlide>
       <SwiperSlide>
         <Image
           src={nytc}
           alt="nytc"
           quality="100"
-          className="h-full w-auto mx-auto"
+          className="w-auto mx-autoo"
         />
       </SwiperSlide>
       <SwiperSlide>
-        <Image
-          src={yv}
-          alt="yv"
-          quality="100"
-          className="h-full w-auto mx-auto"
-        />
+        <Image src={yv} alt="yv" quality="100" className="w-auto mx-autoo" />
       </SwiperSlide>
     </Swiper>
   );
