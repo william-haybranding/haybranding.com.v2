@@ -108,3 +108,19 @@
 .blog a {
   color: var(--primary);
 }
+
+.PhoneInputInput {
+  background: transparent;
+  border: none !important;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.PhoneInputInput:focus {
+  background: transparent;
+  border: none !important;
+}
+
+.PhoneInput {
+  /* border: 1px solid; */
+  background-color: white;
+}

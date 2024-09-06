@@ -46,6 +46,12 @@ export default function FormContact() {
       submitButtonRef.current.disabled = true;
 
       const formData = new FormData();
+      formData.append("fullName", data.fullName);
+      formData.append("companyName", data.companyName);
+      formData.append("phone", data.phone);
+      formData.append("email", data.email);
+      formData.append("website", data.website);
+      formData.append("message", data.message);
       try {
         let res = await fetch("/api/submit", {
           method: "POST",
@@ -264,8 +270,8 @@ export default function FormContact() {
           </div> */}
 
           {status === "success" && (
-            <span className="bg-orange w-full p-4 block rounded mt-3">
-              <span className="font-medium">send</span> requestSend
+            <span className="bg-orange text-white w-full p-4 block rounded-lg mt-3">
+              Form Sent!
             </span>
           )}
           {status === "error" && (
@@ -288,7 +294,7 @@ export default function FormContact() {
 
           <button
             type="submit"
-            className="bg-black text-white font-medium px-4 py-4 mt-3 rounded-lg hover:bg-orange hover:text-black w-full"
+            className="bg-indigo-600 text-white font-medium px-4 py-4 mt-3 rounded-lg hover:bg-orange hover:text-black w-full"
             ref={submitButtonRef}
             disabled={isSubmitting}
           >
