@@ -57,8 +57,10 @@ export default function Home() {
               Speak directly with our team to discuss your project needs or
               schedule a consultation:
             </p>
-            <Link href="tel:+97141234567" legacyBehavior>
-              <a className="text-indigo-600 hover:underline">+971 4 123 4567</a>
+            <Link href="tel:+971544742119" legacyBehavior>
+              <a className="text-indigo-600 hover:underline">
+                +971 54 474 2119
+              </a>
             </Link>
             <h3 className="mb-4 font-mulish font-bold mt-10 text-xl">
               Visit Us
