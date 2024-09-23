@@ -49,6 +49,7 @@ export default function handler(req, res) {
         <p>Current Position: ${fields.currentPosition}</p>
         <p>Industry Segment: ${fields.industrySegment}</p>
         <p>Number of Employees: ${fields.numberOfEmployees}</p>
+        <p>Message: ${fields.message}</p>
         `,
     };
 
