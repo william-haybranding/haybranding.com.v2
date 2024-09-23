@@ -34,6 +34,7 @@ export default function handler(req, res) {
 
     var mailOptions = {
       from: "bruna@haybranding.com",
+      cc: "william.carriello@haybranding.com",
       to: "bruna@haybranding.com",
       subject: "Contact Form - Website - Haybranding",
       html: `
